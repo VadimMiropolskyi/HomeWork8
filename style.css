@@ -37,6 +37,11 @@ header:after {
     z-index: 3;
 }
 
+.item-navigation {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
 .item-switch {
     position: absolute;
     bottom: 10%;
@@ -45,9 +50,9 @@ header:after {
 
 .item-navigation [src*="logo.png"] {
     top: 1vw;
-    left: 5%;
-    width: 15%;
-    float: left;
+    left: 27%;
+    width: 70%;
+    grid-template-columns: auto;
 }
 
 .logo {
